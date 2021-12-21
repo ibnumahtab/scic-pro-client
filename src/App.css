@@ -1,0 +1,35 @@
+.bg-primary{
+  background: #111827;
+}
+.text-primary{
+  color: #111827;
+}
+.bg-lightGray{
+  background: #F9FAFC;
+}
+.text-lightGray{
+  color: #F9FAFC;
+}
+.sec-title::after{
+    content: '';
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: 2px;
+    background-color: #111827;
+}
+.sp-feature-box:hover img{
+  transition:  all .7s;
+  transform: rotateY(180deg);
+  filter: brightness(10%);
+}
+.sp-feature-box:hover h2{
+  transition:  all .7s;
+  color: #111827;
+}
+.border-primary{
+  border-right: 1px solid #111827;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
